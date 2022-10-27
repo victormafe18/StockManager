@@ -27,4 +27,4 @@ Y entradas de la tabla que serían las filas:
 Estos archivos pueden tener diferente número de columnas o filas según la necesidad del usuario, y de este archivo se obtendrán todos los datos necesarios para su almacenamiento en la nube y el despliegue de esos mismos datos en una cómoda interfaz para el cliente, consiguiendo así que se pueda visualizar y administrar el stock compartido de los negocios solamente accediendo al software.
 ## Desarrollo del Proyecto en Hitos :checkered_flag:
 ### Hito 0: Descripción del problema a resolver usando correctamente git y GitHub :zero:
-[Hito 0:](docs/hito0.md)
+Hito 0: [Descripción del problema a resolver usando correctamente git y GitHub](docs/hito0.md)
