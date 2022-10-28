@@ -22,3 +22,6 @@ Una vez creado el repositorio, podemos acceder a él y tendremos un repositorio 
 #### Selección de licencia <a name="item1"></a>
 Como podemos ver en la creación del repositorio, a la hora de elegir la licencia se nos ofrece ayuda como Aprende más o Learn more, lo cuál nos redirige a [Choose a License](https://choosealicense.com/), un sitio web que nos nos otorgará detalles de las diferentes licencias disponibles. Siguiendo estas directivas, como se pretende hacer un proyecto sencillo individual, finalmente escogí la licencia MIT, que es permisiva, con derechos sencillos de copyright y flexible para este software.
 #### Creación del archivo gitignore <a name="item2"></a>
+Para la creación de mi archivo .gitignore, y como GitHub no proporciona ninguna plantilla por defecto para trabajar con React, he buscado información por internet y plantillas de archivos de este tipo orientados al lenguaje que voy a usar y finalmente he llegado a la conclusión de que el [archivo .gitignore de Facebook](https://github.com/facebook/react/blob/main/.gitignore) es el más completo y se utilizan copias de él en muchos githubs de react, por tanto, inicialmente voy a utilizarlo como plantilla y será modificado con el avance del proyecto.
+
+## Creación del par de claves SSH pública/privada
