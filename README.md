@@ -5,7 +5,8 @@ Software de gestión de stock compartido entre negocios, indenpendientemente del
 StockManager es la solución software que necesitas para administrar un stock compartido para una cadena de negocios.
 
 La idea es mediante el uso de programación basada en componentes, crear un sistema independiente y libre de contexto que mediante el uso de componentes software reutilizables, implemente un **software capaz de montar el despliegue y el almacenamiento de datos independientemente del modelo de negocio sobre el que trabajemos.**  
-Solo requeriría una entrada de datos estandarizada y crearía la estructura de almacenamiento, además de mostrar los datos en un despliegue sencillo.
+Solo requeriría recibir una entrada de datos estandarizada para crear la estructura de almacenamiento, además de mostrar los datos en un despliegue sencillo.  
+Inicialmente pretendo utilizar **Node Js** y **Javascript** para hacer el desarrollo en componentes y utilizar un contenedor en la nube para almacenar los datos compartidos.
 
 #### Implementación de Ejemplo
 Un ejemplo claro sería la idea inicial que me hizo decidirme por el desarrollo de esta solución software:  
