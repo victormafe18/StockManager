@@ -3,7 +3,18 @@
 En este hito se detallarán todos los pasos necesarios para crear y configurar correctamente un repositorio git, desde el cuál se llevará el control de versiones del desarrollo del proyecto, así cómo se realizarán las entregas de la asignatura de Cloud Computing.  
 
 Ya tenía cuenta creada en GitHub y personalizada prácticamente por completo para utilizar la plataforma a modo personal, a continuación podremos información sobre cómo crear un repositorio, con su correspondiente licencia, como configurar el par de claves publica/privada SSH necesarias, como configurar el perfil, etc. Basado en mi experiencia personal.
-## Creación del repositorio
+#### Índice de contenidos del hito 0
+- [Creación del repositorio](#item3)
+
+- [Creación del par de claves SSH pública/privada](#item4)
+
+- [Ajustes de perfil de usuario](#item5)
+
+- [Activación del segundo factor de autenticación](#item6)
+
+- [Clonación del repositorio](#item7)
+
+## Creación del repositorio <a name="item3"></a>
 En este apartado se verá cómo crear un repositorio desde la interfaz gráfica de GitHub.
 #### Home de creación de repositorios
 Nada más iniciar sesión, podemos ver el home de GitHub, en el cuál podemos navegar entre diversas opciones, y a la izquierda podemos ver un botón verde para crear un repositorio.  
@@ -26,7 +37,7 @@ Como podemos ver en la creación del repositorio, a la hora de elegir la licenci
 El archivo gitignore es aquel que suele estar presente como buena práctica en la mayoría de repositorios de GitHub, y sirve para decir qué tipo de archivos se ignorarán cuando se haga push de nuevas versiones o características.  
 Para la creación de mi archivo .gitignore, y como GitHub no proporciona ninguna plantilla por defecto para trabajar con React, he buscado información por internet y plantillas de archivos de este tipo orientados al lenguaje que voy a usar y finalmente he llegado a la conclusión de que el [archivo .gitignore de Facebook](https://github.com/facebook/react/blob/main/.gitignore) es el más completo y se utilizan copias de él en muchos githubs de react, por tanto, inicialmente voy a utilizarlo como plantilla y será modificado con el avance del proyecto.
 
-## Creación del par de claves SSH pública/privada
+## Creación del par de claves SSH pública/privada <a name="item4"></a>
 El par de claves SSH son como su propio nombre indica, dos claves o credenciales para mantener una comunicación segura entre el usuario y el servidor; mediante un cliente SSH se comparte la clave pública para cifrar los datos que serán solo descifrados con la clave privada que solo nosotros poseemos para que sean inaccesibles por terceros.  
 
 En la siguiente figura se puede apreciar el uso del comando **ssh-keygen -t ed25519 -C "victormafe18@correo.ugr.es"**, este comando significa lo siguiente:
@@ -35,27 +46,35 @@ En la siguiente figura se puede apreciar el uso del comando **ssh-keygen -t ed25
 3. -C Se utiliza para identificar la opración de creación de claves con una etiqueta (En este caso mi correo electrónico).
 
 ![Ssh Keys Command](/assets/hito0/SshKeysCommand.png)
+
 Una vez ejecutado este comando, introducimos el nombre y la ruta de archivo donde se almacenará la clave localmente, y si queremos, una contraseña como seguridad adicional, tras esto, tendremos las claves creadas localmente, ahora solo queda enlazarlas al repositorio.  
 
 Enlazar la clave creada a nuestro repositorio es muy sencillo, debemos ir a la configuración en la interfaz gráfica de GitHub y al apartado de claves SSH y GPG y añadir una nueva clave:
 
 ![Ssh Keys SSH and GPG Settings Page](/assets/hito0/SshKeysAdd.png)
+
 Después simplemente añadimos un nombre para la clave y pegamos la clave pública generada anteriormente (Podemos acceder a ella buscando el archivo generado, en mi caso stockmanagersshkeys.pub).
 
 ![Ssh Keys Creation Settings](/assets/hito0/SshKeysCreation.png)
+
 Y tendríamos las claves SSH listas y funcionando.
 
-## Ajustes de Perfil de Usuario
+## Ajustes de perfil de usuario <a name="item5"></a>
 Si accedemos desde la interfaz de GitHub a los ajustes del perfil público de la cuenta, se pueden añadir todos los detalles necesarios, en este caso serán nombre y apellidos, imagen de perfil, correo electrónico, localidad y compañía (Universidad de Granada).
 
 ![User Settings](/assets/hito0/UserSettings.png)
-
-## Activación del segundo factor de autenticación
+## Activación del segundo factor de autenticación <a name="item6"></a>
 El segundo factor de autenticación sirve para aumentar la seguridad de la cuenta añadiendo una segunda verificación para acceder a la cuenta.  
 
 Si vamos a los ajustes de usuario en la interfaz gráfica de GitHub, al apartado de contraseñas y autenticación, podemos ver el apartado de activación del segundo factor de autenticación:
 
 ![Two Factor Authentication Enable Settings](/assets/hito0/TwoFactorAuthenticationEnable.png)
+
 Una vez dentro veremos una serie de pasos que, tras completarlos (No se muestran por motivos de privacidad) y que en mi caso consistían en introducir mi móvil y recibir un código por SMS, se activará el segundo factor de autenticación.
 
 ![Two Factor Authentication Stepper](/assets/hito0/TwoFactorAuthenticationStepper.png)
+
+## Clonación del repositorio <a name="item7"></a>
+Una vez tenemos lista la base del repositorio, podemos clonarlo para tenerlo en local y trabajar en nuestro ordenador directamente sobre él, solo tenemos que utilizar el comando `git clone nombre_repositorio` en el directorio de trabajo deseado.
+
+![Clone Repository](/assets/hito0/CloneRepository.png)
