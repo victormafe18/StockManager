@@ -44,7 +44,7 @@ Finalmente, con `npm install react-router-dom@6` se instala react router, que se
 
 Una vez creado el proyecto por defecto implementado en la [sección 3](#item3), nos quedan dos achivos útiles:
 - El índice [index.js](/src/src/index.js) donde se ha creado la renderización de la aplicación.
-- Y la aplicación [App.js](/src/src/App.js) en el cuál se han utilizado componentes de react router para configurar el componente distribuidor de rutas de nuestra aplicación **Pathing**(Detallado más adelante).
+- Y la aplicación [App.js](/src/src/App.js) en el cuál se han utilizado componentes de react router para configurar el componente distribuidor de rutas de nuestra aplicación **Pathing** (Detallado más adelante).
 
 Se han implementado los siguientes componentes:
 
