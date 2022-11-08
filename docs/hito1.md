@@ -42,3 +42,21 @@ Finalmente, con `npm install react-router-dom@6` se instala react router, que se
 
 ## Implementación de la base del proyecto <a name="item4"></a>
 
+Una vez creado el proyecto por defecto implementado en la [sección 3](#item3), nos quedan dos achivos útiles:
+- El índice [index.js](/src/src/index.js) donde se ha creado la renderización de la aplicación.
+- Y la aplicación [App.js](/src/src/App.js) en el cuál se han utilizado componentes de react router para configurar el componente distribuidor de rutas de nuestra aplicación **Pathing**(Detallado más adelante).
+
+Se han implementado los siguientes componentes:
+
+El componente **Pathing** en el archivo [routes.js](/src/src/data/routes/routes.js) contiene un array routesList con objetos sencillos de 3 variables:
+- **path**, que contiene la ruta que devolverá un componente concreto. 
+- **type**, que indicará si la ruta es pública o privada (Para proteger rutas en futuras implementaciones).
+- **view**, que indicará la vista que se debe cargar en dicha ruta.
+
+Este componente devuelve un mapeo del vector routesList que hará efectivas todas las rutas con sus vistas correspondientes.
+
+Como base de funcionamiento se han creado otros dos componentes:
+- [StockManager](/src/src/components/StockManager.jsx) que tendrá la funcionalidad principal, coordinando a otros componentes para ofrecerla (Hasta el momento solo tiene botones sin funcionalidad y renderiza al componente CRUDCreator).
+- [CRUDCreator](/src/src/components/CRUDCreator.jsx), que recibe como parámetro un fichero xls o xlsx para en un futuro traducirlo en un map de pares clave-valor con el contenido del mismo, para poder trabajar y clasificar los datos.
+
+Por el momento solo tenemos la vista [StockManagerView](/src/src/views/StockManagerView.js), la cual contiene al componente StockManager.
