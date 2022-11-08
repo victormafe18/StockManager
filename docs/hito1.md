@@ -6,9 +6,9 @@ En este hito se pretende definir la base para StockManager, diseñando la estruc
 
 - [Hitos de desarrollo](#item2)
 
-- [Ajustes de perfil de usuario](#item3)
+- [Creación y ejecución del proyecto](#item3)
 
-- [Activación del segundo factor de autenticación](#item4)
+- [Implementación de la base del proyecto](#item4)
 
 ## Historias de usuario <a name="item1"></a>
 #### Creación de una historia de usuario
@@ -26,3 +26,9 @@ Las cuales tendrán otras subhistorias que podremos encontrar en el apartado de 
 
 ## Hitos de desarrollo <a name="item2"></a>
 Los hitos de desarrollo asociados al proyecto y a las diferentes historias de usuario se pueden encontrar en la sección de [milestones](https://github.com/victormafe18/StockManager/milestones).
+
+## Creación y ejecución del proyecto <a name="item3"></a>
+
+
+## Implementación de la base del proyecto <a name="item4"></a>
+
