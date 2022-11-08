@@ -30,5 +30,5 @@ Estos archivos pueden tener diferente número de columnas o filas según la nece
 ## Desarrollo del Proyecto en Hitos :checkered_flag:
 ### Hito 0: Descripción del problema a resolver usando correctamente git y GitHub :zero:
 Hito 0: [Descripción del problema a resolver usando correctamente git y GitHub](docs/hito0.md)
-### Hito 0: Descripción del problema a resolver usando correctamente git y GitHub :one:
+### Hito 1: Concretando y planificando el proyecto (Creación del proyecto) :one:
 Hito 1: [Concretando y planificando el proyecto](docs/hito1.md)
