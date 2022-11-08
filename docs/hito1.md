@@ -28,7 +28,17 @@ Las cuales tendrán otras subhistorias que podremos encontrar en el apartado de 
 Los hitos de desarrollo asociados al proyecto y a las diferentes historias de usuario se pueden encontrar en la sección de [milestones](https://github.com/victormafe18/StockManager/milestones).
 
 ## Creación y ejecución del proyecto <a name="item3"></a>
+Lo principal es tener instalado React y Node.js en el sistema.
 
+Con el comando `npx create-react-app stockmanager` (Siendo ''stockmanager'' el nombre de la aplicación que se desee crear), se crea la estructura básica de carpetas, que contendrá el App.js y el index.js que se utiliza para gestionar la ejecución de la aplicación completa sería el siguiente
+
+Usando en la raíz del proyecto `npm run start` podemos lanzar la aplicación en el servidor local, por defecto localhost:3000.
+
+Para analizar el estado de nuestra aplicación en ejecución, se recomienda la extensión de navegador [React Developer Tools](https://beta.reactjs.org/learn/react-developer-tools).
+
+Se han instalado con el comando `npm install @mui/material @emotion/react @emotion/styled @mui/icons-material` las dependencias necesarias de [Material UI](https://mui.com/), que es una librería de código abierto que se utilizará para personalizar el diseño de la página.
+
+Finalmente, con `npm install react-router-dom@6` se instala react router, que se utilizará para gestionar las rutas de nuestra aplicación web.
 
 ## Implementación de la base del proyecto <a name="item4"></a>
 
