@@ -16,3 +16,4 @@ Gulp es una herramienta flexible usada en el desarrollo de software con javascri
 La instalación de Gulp es sencilla pero requiere de unos pasos iniciales:
 - Instalación global de Gulp en el sistema con `npm install -g gulp`.
 - Instalación de las dependencias de Gulp en nuestro proyecto, en la raíz del proyecto (Y teniendo previamente creado el archivo package.json generado automáticamente con la creación de una aplicación de react), ejecutamos el comando `npm install --save-dev gulp` (Incluimos `-dev` para indicar que gulp solo será una dependencia de desarrollo, que no será incluida en producción.
+-Creación del archivo de configuración de Gulp [gulpfile.js](/src/gulpfile.js)
