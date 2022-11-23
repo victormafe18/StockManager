@@ -32,3 +32,5 @@ Estos archivos pueden tener diferente número de columnas o filas según la nece
 Hito 0: [Descripción del problema a resolver usando correctamente git y GitHub](docs/hito0.md)
 ### Hito 1: Concretando y planificando el proyecto (Creación del proyecto) :one:
 Hito 1: [Concretando y planificando el proyecto](docs/hito1.md)
+### Hito 2: Creación de los tests de StockManager :two:
+Hito 2: [Creación de los tests de StockManager](docs/hito2.md)
