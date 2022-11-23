@@ -19,6 +19,8 @@ La instalación de Gulp es sencilla pero requiere de unos pasos iniciales:
 #### Configuración y uso de Gulp :gear:
 Una vez instalado y preparado el entorno para el uso del gestor de tareas Gulp, vamos a implementar su funcionamiento en el gulpfile.
 
+Para ejecutar las tareas de Gulp se puede utilizar el comando `gulp nombreTarea` o `npm test` para ejecutar la tarea por defecto.
+
 Las funciones principales de Gulp son las siguientes:
 - gulp.task(): Para definir tareas.
 - gulp.src(): De dónde gulp toma los archivos con los que trabajará.
